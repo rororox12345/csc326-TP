@@ -1,0 +1,24 @@
+package edu.ncsu.csc326.wolfcafe.exception;
+
+import java.time.LocalDateTime;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+/**
+ * Provides details on errors.
+ */
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class ErrorDetails {
+    /** TODO */
+    private LocalDateTime timeStamp;
+    /** TODO */
+    private String        message;
+    /** TODO */
+    private String        details;
+}
